@@ -66,7 +66,7 @@ export default function List({ topics }: { topics: Topic[] }) {
             <li
               key={`title-${index}-${topic.title}`}
               className={classNames(
-                'text-3xl lg:text-3xl font-infant hover:text-red-600 hover:cursor-pointer transition-colors  ease-in-out',
+                'text-3xl lg:text-3xl font-infant focus:text-red-600 active:text-red-600 hover:cursor-pointer transition-colors  ease-in-out',
                 topic.title === selected.title &&
                   (isChanging ? 'text-red-600 duration-100' : 'text-gray-400 duration-300'),
               )}
