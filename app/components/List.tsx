@@ -4,7 +4,7 @@ import { useState } from 'react';
 import classNames from 'classnames';
 
 export default function List({ topics }: { topics: { title: string; list: string[] }[] }) {
-  const [selected, setSelected] = useState(topics[1]);
+  const [selected, setSelected] = useState(topics[0]);
 
   return (
     <div className="flex w-full space-x-3 flex-col md:flex-row  ">
