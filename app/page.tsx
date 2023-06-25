@@ -136,7 +136,7 @@ export default function Home() {
                   }}
                 />
               </div>
-              <div className="relative mx-auto max-w-2xl lg:mx-0">
+              <div className="relative mx-auto max-w-2xl lg:mx-0 gap-y-5 flex flex-col">
                 <span className={'font-jura text-xl text-white'}>Venue</span>
                 <h1 className={`text-xl font-medium text-white sm:text-2xl normal-case`}>
                   Griffith University, Gold Coast Campus. 1 Parklands Drive, Southport, QLD 4215.
