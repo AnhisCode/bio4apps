@@ -136,14 +136,14 @@ export default function Home() {
           <rect width="100%" height="100%" strokeWidth={0} fill="url(#83fd4e5a-9d52-42fc-97b6-718e5d7ee527)" />
         </svg>
         <section className="overflow-hidden relative min-h-screen mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center flex flex-col gap-y-4 items-start justify-center h-full font-infant uppercase">
-          <h1 className={`absolute top-20 text-lg  font-jura text-gray-200`}>Topics this year</h1>
+          <h1 className={`absolute top-10 md:top-20 text-lg  font-jura text-gray-200`}>Topics this year</h1>
           <List topics={data} />
         </section>
       </div>
       <section className=" mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 text-center min-h-screen flex flex-col gap-y-20 py-24 md:py-40 items-center justify-center h-full font-infant uppercase">
         <div>
           <h1 className={`text-4xl font-extrabold text-gray-900 sm:text-4xl font-infant`}>Organisers</h1>
-          <div className="w-[400px] h-[1px] bg-black my-10"></div>
+          <div className="w-full md:scale-x-150 h-[1px] bg-black my-10"></div>
         </div>
 
         <div className="flex flex-col items-center gap-y-14">

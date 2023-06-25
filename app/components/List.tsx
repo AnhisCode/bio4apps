@@ -82,7 +82,7 @@ export default function List({ topics }: { topics: Topic[] }) {
         {selected.list.map((item, index) => (
           <li
             key={`${index}-${item}`}
-            className="lg:text-xl text-lg font-sans whitespace-nowrap normal-case font-light transition-all delay-300 duration-300 ease-in-out opacity-0 transform translate-y-2"
+            className="lg:text-xl text-sm sm:text-lg font-sans whitespace-nowrap normal-case font-light transition-all delay-300 duration-300 ease-in-out opacity-0 transform translate-y-2"
             style={{ animation: 'fade-in-move-down 1s forwards' }}
           >
             {item}
