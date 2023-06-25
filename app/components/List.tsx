@@ -78,7 +78,7 @@ export default function List({ topics }: { topics: Topic[] }) {
         </ul>
         <div className={'w-[1px] hidden lg:flex h-full bg-gray-300 right-10 lg:right-40 sm:right-20 absolute'}></div>
       </div>
-      <ul className="h-64  flex flex-col justify-start lg:justify-center w-full text-left text-white list-disc list-inside marker:text-red-900/50 marker:text-4xl overflow-y-visible">
+      <ul className="h-80 lg:justify-items-center  flex flex-col justify-start lg:justify-center w-full text-left text-white list-disc list-inside marker:text-red-900/50 marker:text-4xl overflow-y-visible">
         {selected.list.map((item, index) => (
           <li
             key={`${index}-${item}`}
