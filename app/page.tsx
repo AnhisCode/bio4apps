@@ -67,8 +67,8 @@ const intlComittee = [
 
 const Person = ({ name, location }: { name: string; location: string }) => (
   <div className={`w-full flex flex-col items-center justify-center space-y-3 p-4 `}>
-    <span className={'text-4xl font-bold font-infant'}>{name}</span>
-    <span className={'text-lg font-light font-jura'}>{location}</span>
+    <span className={'text-4xl font-bold text-gray-900 font-infant'}>{name}</span>
+    <span className={'text-lg font-light text-gray-900 font-jura'}>{location}</span>
   </div>
 );
 
