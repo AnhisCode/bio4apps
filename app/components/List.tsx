@@ -7,14 +7,14 @@ export default function List({ topics }: { topics: { title: string; list: string
   const [selected, setSelected] = useState(topics[1]);
 
   return (
-    <div className="flex w-full space-x-3 flex-col md:flex-row">
+    <div className="flex w-full space-x-3 flex-col md:flex-row  ">
       <div className={'flex relative items-center justify-between w-1/2 flex-shrink-0'}>
         <ul className="text-left text-white flex flex-col space-y-6 my-10 ">
           {topics.map((topic, index) => (
             <li
               key={`title-${index}-${topic.title}`}
               className={classNames(
-                'text-2xl lg:text-3xl font-infant hover:text-red-600 hover:cursor-pointer',
+                'text-2xl lg:text-3xl font-infant hover:text-red-600 hover:cursor-pointer transition-colors duration-200 ease-in-out',
                 topic.title === selected.title && 'text-gray-400',
               )}
               onClick={() => setSelected(topic)}

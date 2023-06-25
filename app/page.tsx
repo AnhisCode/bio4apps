@@ -86,7 +86,7 @@ export default function Home() {
               bioelectronics, biomedical devices, and bioMES /NEMS.
             </p>
             <button
-              className={`font-sans mt-8 w-48 px-8 py-3 border border-transparent text-base font-medium rounded-full text-white bg-black hover:bg-gray-800 
+              className={`font-sans mt-8 w-48 px-8 py-3 border border-transparent text-base font-medium rounded-full text-white bg-black hover:bg-gray-800  transition-colors duration-200 ease-in-out 
           `}
             >
               SUBMIT NOW
