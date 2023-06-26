@@ -78,17 +78,19 @@ export default function List({ topics }: { topics: Topic[] }) {
         </ul>
         <div className={'w-[1px] hidden lg:flex h-full bg-gray-300 right-10 lg:right-40 sm:right-20 absolute'}></div>
       </div>
-      <ul className="h-80 lg:justify-items-center  flex flex-col justify-start lg:justify-center w-full text-left text-white list-disc list-inside marker:text-red-900/50 marker:text-4xl overflow-y-visible">
+      <ul className="h-80 lg:justify-items-center  flex flex-col justify-start lg:justify-center w-full text-left text-white list-none overflow-y-visible">
         {selected.list.map((item, index) => (
           <li
             key={`${index}-${item}`}
-            className="lg:text-xl text-sm sm:text-lg font-sans whitespace-nowrap normal-case font-light transition-all delay-300 duration-300 ease-in-out opacity-0 transform translate-y-2"
+            className="ml-4 mt-5 md:mt-2 lg:ml-0 lg:text-xl text-sm sm:text-lg font-sans whitespace-nowrap normal-case font-light transition-all delay-300 duration-300 ease-in-out opacity-0 transform translate-y-2 relative"
             style={{ animation: 'fade-in-move-down 1s forwards' }}
           >
+            <span className=" absolute top-1/2 transform -translate-y-1/2 left-[-1.5rem] md:left-[-2.5rem] w-3 h-3 bg-red-900/50 rounded-full"></span>
             {item}
           </li>
         ))}
       </ul>
+
       <style jsx>{`
         @keyframes fade-in-move-down {
           0% {

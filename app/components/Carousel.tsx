@@ -47,19 +47,17 @@ export default function CarouselComponent({ images }: { images: string[] }) {
         <ChevronRightIcon className="h-8 w-8 absolute right-0 text-white z-10 transform -translate-y-1/2 top-1/2" />
       </button>
 
-      {/* progress bars depending on which is the current slide  */}
-      <div className="absolute bottom-10 left-1/2 w-36 transform -translate-x-1/2 z-10 flex justify-between space-x-5">
+      <div className="absolute h-1 bottom-10 left-1/2 w-36 transform -translate-x-1/2 z-10 flex justify-between space-x-5">
         {images.map((src, index) => (
           <div
             key={index}
-            className={classNames(
-              index === activeIndex ? 'h-full bg-white' : 'h-full bg-white opacity-50',
-              'transition-all duration-1000 ease-in-out',
-              'h-1',
-            )}
+            className={
+              index === activeIndex
+                ? ' bg-white transition-colors duration-1000 ease-in-out'
+                : ' bg-gray-500 transition-colors duration-1000 ease-in-out'
+            }
             style={{
               width: `${100 / images.length}%`,
-              transition: 'width 1s ease-in-out',
             }}
           ></div>
         ))}
