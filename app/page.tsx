@@ -106,7 +106,7 @@ export default function Home() {
       <section className="min-h-screen mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 text-center  flex flex-col gap-y-24 items-center justify-center h-full font-infant uppercase">
         <div>
           <span className={'font-jura text-xl'}>Date of conference</span>
-          <h1 className={`text-4xl font-extrabold text-gray-900 sm:text-6xl`}>15-17 November 2023</h1>
+          <h1 className={`text-4xl font-extrabold text-gray-900 sm:text-6xl`}>13-15 December 2023</h1>
         </div>
 
         <div className="w-1/2 h-[1px] bg-black mt-4"></div>
