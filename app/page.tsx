@@ -185,7 +185,8 @@ export default function Home() {
           <h2 className="text-lg font-jura  capitilize text-gray-400">General Chair</h2>
           <Person name={'Dung Viet Dao'} location={'Griffith University, Australia'} />
         </div>
-        <h2 className="text-lg font-jura  capitilize text-gray-400">Steering Committee Chairs</h2>
+        {/* TODO ?? */}
+        {/*<h2 className="text-lg font-jura  capitilize text-gray-400">Steering Committee Chairs</h2>*/}
         <div className={'flex flex-col gap-y-14'}>
           <h2 className="text-lg font-jura  capitilize text-gray-400">International Steering Committee Chairs</h2>
           <div className={'flex flex-col gap-y-8'}>
