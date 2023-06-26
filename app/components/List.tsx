@@ -21,7 +21,7 @@ export default function List({ topics }: { topics: Topic[] }) {
     setUserSelected(true);
     if (intervalId) {
       clearInterval(intervalId);
-      intervalId = setInterval(handleIntervalSelection, 10000); // new interval is twice as long
+      intervalId = setInterval(handleIntervalSelection, 8000); // new interval is twice as long
     }
   };
 
@@ -53,7 +53,7 @@ export default function List({ topics }: { topics: Topic[] }) {
 
   useEffect(() => {
     if (isVisible) {
-      intervalId = setInterval(handleIntervalSelection, userSelected ? 10000 : 5000);
+      intervalId = setInterval(handleIntervalSelection, userSelected ? 8000 : 3000);
       return () => clearInterval(intervalId);
     }
   }, [isVisible, topics, userSelected]);
