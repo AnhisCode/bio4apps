@@ -66,12 +66,12 @@ export default function CarouselComponent({ images }: { images: string[] }) {
       </div>
 
       {images.map((src, index) => (
-        <div key={index}>
+        <div key={index} className="transition-opacity duration-1000 ease-in-out">
           <Image
             className={
               index === activeIndex
-                ? 'absolute inset-0 h-full w-full object-cover brightness-150 saturate-0 opacity-100 transition-opacity'
-                : 'absolute inset-0 h-full w-full object-cover brightness-150 saturate-0 opacity-0 transition-opacity'
+                ? 'absolute inset-0 h-full w-full object-cover brightness-150 saturate-0 opacity-100 transition-opacity duration-1000 ease-in-out'
+                : 'absolute inset-0 h-full w-full object-cover brightness-150 saturate-0 opacity-0 transition-opacity duration-1000 ease-in-out'
             }
             width={1920}
             height={1080}
