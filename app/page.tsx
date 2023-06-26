@@ -1,5 +1,7 @@
-import Image from 'next/image';
 import List from '@/app/components/List';
+import CarouselComponent from '@/app/components/Carousel';
+
+const images = ['/location.jpeg', '/location2.jpeg', '/location3.jpeg'];
 
 const data: {
   title: string;
@@ -85,12 +87,15 @@ export default function Home() {
               world to present their latest findings, ideas, and applications in the areas of biosensors,
               bioelectronics, biomedical devices, and bioMES /NEMS.
             </p>
-            <button
+            <a
               className={`font-sans mt-8 w-48 px-8 py-3 border border-transparent text-base font-medium rounded-full text-white bg-black hover:bg-gray-800  transition-colors duration-200 ease-in-out 
           `}
+              href="https://forms.gle/LCXdEJMw8zigQEt4A"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               SUBMIT NOW
-            </button>
+            </a>
             <span className={'font-jura text-gray-500'}>(Due by 15 November 2023)</span>
           </section>
         </div>
@@ -107,14 +112,8 @@ export default function Home() {
         <div className="bg-white ">
           <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div className="relative overflow-hidden bg-gray-900 px-6 py-20 shadow-xl sm:rounded-3xl sm:px-10 sm:py-24 md:px-12 lg:px-20">
-              <Image
-                className="absolute inset-0 h-full w-full object-cover brightness-150 saturate-0"
-                src="/location.jpeg"
-                alt=""
-                width={1000}
-                height={1000}
-              />
-              <div className="absolute inset-0 bg-gray-900/90 mix-blend-multiply" />
+              <CarouselComponent images={images} />
+              <div className="absolute inset-0 bg-gray-900/80 mix-blend-multiply" />
               <div className="absolute -left-80 -top-56 transform-gpu blur-3xl" aria-hidden="true">
                 <div
                   className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-r from-rose-50 to-rose-700 opacity-[0.45]"
