@@ -61,12 +61,12 @@ export default function List({ topics }: { topics: Topic[] }) {
   return (
     <div ref={listRef} className="flex w-full space-x-3 flex-col lg:flex-row h-full ">
       <div className={'flex relative items-center justify-between w-full lg:w-1/2 flex-shrink-0'}>
-        <ul className="text-left text-white flex flex-col space-y-6 my-10 ">
+        <ul className="text-left text-black flex flex-col space-y-6 my-10 ">
           {topics.map((topic, index) => (
             <li
               key={`title-${index}-${topic.title}`}
               className={classNames(
-                'text-3xl lg:text-3xl font-infant focus:text-red-600 active:text-red-600 lg:hover:text-red-600 hover:cursor-pointer transition-colors  ease-in-out',
+                'text-3xl lg:text-3xl focus:text-red-600 active:text-red-600 lg:hover:text-red-600 hover:cursor-pointer transition-colors  ease-in-out',
                 topic.title === selected.title &&
                   (isChanging ? 'text-red-600 duration-100' : 'text-gray-400 duration-300'),
               )}
@@ -78,11 +78,11 @@ export default function List({ topics }: { topics: Topic[] }) {
         </ul>
         <div className={'w-[1px] hidden lg:flex h-full bg-gray-300 right-10 lg:right-40 sm:right-20 absolute'}></div>
       </div>
-      <ul className="h-80 lg:justify-items-center  flex flex-col justify-start lg:justify-center w-full text-left text-white list-none overflow-y-visible">
+      <ul className="h-80 lg:justify-items-center  flex flex-col justify-start lg:justify-center w-full text-left text-black list-none overflow-y-visible">
         {selected.list.map((item, index) => (
           <li
             key={`${index}-${item}`}
-            className="ml-4 mt-5 md:mt-2 lg:ml-0 lg:text-xl text-sm sm:text-lg font-sans whitespace-nowrap normal-case font-light transition-all delay-300 duration-300 ease-in-out opacity-0 transform translate-y-2 relative"
+            className="ml-4 mt-5 md:mt-2 lg:ml-0 lg:text-xl text-sm sm:text-lg whitespace-nowrap normal-case transition-all delay-300 duration-300 ease-in-out opacity-0 transform translate-y-2 relative"
             style={{ animation: 'fade-in-move-down 1s forwards' }}
           >
             <span className=" absolute top-1/2 transform -translate-y-1/2 left-[-1.5rem] md:left-[-2.5rem] w-3 h-3 bg-red-900/50 rounded-full"></span>

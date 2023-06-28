@@ -17,6 +17,9 @@ module.exports = {
         infant: ['var(--font-infant)'],
         jura: ['var(--font-jura)'],
       },
+      colors: {
+        blue: "#303494"
+      }
     },
   },
 
