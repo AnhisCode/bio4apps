@@ -103,7 +103,7 @@ export default function Home() {
                 <div className={"grid md:grid-cols-2 grid-cols-1 gap-4 mb-14 xl:px-40 md:px-20 px-10"}>
                     <div className={"flex items-center"}>
                         <div>
-                            <div className={"text-2xl font-bold mb-4 text-red-600"}> ABOUT</div>
+                            <div className={"text-4xl font-bold mb-4 text-red-600"}> ABOUT</div>
                             <p className={"italic"}>
                                 Bio4Apps 2023 is an international conference for researchers,
                                 scientists, and engineers throughout the world to present their
@@ -114,7 +114,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className={"flex items-center justify-center"}>
-                        <Image src={"/Image_2.png"} alt="Gold Coast Logo" width={500} height={500}
+                        <Image src={"/image_2.png"} alt="Gold Coast Logo" width={500} height={500}
                                className={"object-cover rounded-2xl"}/>
                     </div>
                 </div>
@@ -145,6 +145,12 @@ export default function Home() {
                             <p>
                                 (2 pages)
                             </p>
+                            <a href="https://forms.gle/LCXdEJMw8zigQEt4A"
+                            className={"underline text-blue"}
+                               target="_blank"
+                            >
+                                Submit Now
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -158,8 +164,12 @@ export default function Home() {
                     <List topics={data}/>
                 </div>
 
-                <div className={"pt-14 xl:px-40 md:px-20 px-10"}>
-                    <div className={"text-4xl font-bold mb-4 text-red-600"}> Organisers</div>
+                <div className={"w-full "}>
+                    <Image src={"/Image_4.png"} alt={"Gold Coast Beach"} width={2000} height={1000}/>
+                </div>
+
+                <div className={"pt-14 xl:px-40 md:px-20 px-10 pb-14"}>
+                    <div className={"text-4xl font-bold mb-4 text-red-600"}> ORGANISERS</div>
 
                     <div className={"text-2xl text-blue"}>
                         General Chair

@@ -61,7 +61,7 @@ export default function List({ topics }: { topics: Topic[] }) {
   return (
     <div ref={listRef} className="flex w-full space-x-3 flex-col lg:flex-row h-full ">
       <div className={'flex relative items-center justify-between w-full lg:w-1/2 flex-shrink-0'}>
-        <ul className="text-left text-black flex flex-col space-y-6 my-10 ">
+        <ul className="text-left text-black flex flex-col space-y-6 ">
           {topics.map((topic, index) => (
             <li
               key={`title-${index}-${topic.title}`}
