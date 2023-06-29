@@ -136,8 +136,8 @@ export default function Home() {
                 </div>
 
                 <div className={"w-full "}>
-                    <Image src={"/Image_4.png"} alt={"Gold Coast Beach"} width={2000} height={1000}/>
-                </div>
+                    <Image src={"/image_4.png"} alt={"Gold Coast Beach"} width={2000} height={1000}/>
+                </div>x
 
                 <div className={"pt-14 xl:px-40 md:px-20 px-10 pb-14"}>
                     <div className={"text-4xl font-bold mb-4 text-red-600"}> ORGANISERS</div>
