@@ -76,11 +76,8 @@ export default function Home() {
                         <div>
                             <div className={"text-4xl font-bold mb-4 text-red-600"}> ABOUT</div>
                             <p className={"italic"}>
-                                Bio4Apps 2023 is an international conference for researchers,
-                                scientists, and engineers throughout the world to present their
-                                latest findings, ideas, and applications in the areas of
-                                biosensors, bioelectronics, biomedical devices, and
-                                bioMEMS/NEMS.
+                                Bio4Apps is an international conference series for researchers, scientists, and engineers throughout the world to present their latest findings, ideas, and applications in the areas of biosensors, bioelectronics, biomedical devices, and BioMEMS/NEMS. The first Bio4Apps conference was held in the National University of Singapore (2012), then Tokyo Medical and Dental University (2013), Shanghai Jiao Tong University (2014), Kyushu University (2015), Griffith University (2016), the University of Tokyo (2017), Harbin Institute of Technology (2018), and Kagoshima University (2019). Between 2020 and 2022, the Bio4Apps conference was not held due to the Covid-19 pandemic.
+                                This year, the 9th Bio4Apps (Bio4Apps2023) will come back to Griffith University, Gold Coast - one of the beautiful coastal cities in Australia. So welcome to the 9th Bio4Apps!
                             </p>
                         </div>
                     </div>
@@ -137,7 +134,7 @@ export default function Home() {
 
                 <div className={"w-full "}>
                     <Image src={"/image_4.png"} alt={"Gold Coast Beach"} width={2000} height={1000}/>
-                </div>x
+                </div>
 
                 <div className={"pt-14 xl:px-40 md:px-20 px-10 pb-14"}>
                     <div className={"text-4xl font-bold mb-4 text-red-600"}> ORGANISERS</div>
