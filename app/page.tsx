@@ -3,6 +3,7 @@ import CarouselComponent from '@/app/components/Carousel';
 import {BuildingOffice2Icon, EnvelopeIcon} from '@heroicons/react/20/solid';
 import Image from 'next/image';
 import React from "react";
+import {Organisers} from "@/app/components/organisers";
 
 const data: {
     title: string;
@@ -71,7 +72,7 @@ export default function Home() {
             <div className={"text-white bg-blue font-bold text-2xl text-center w-full mb-14"}> CALL FOR PAPERS</div>
             {/*body*/}
             <div className={"bg-white w-full text-black"}>
-                <div className={"grid md:grid-cols-2 grid-cols-1 gap-4 mb-14 xl:px-40 md:px-20 px-10"}>
+                <div className={"grid md:grid-cols-2 grid-cols-1 gap-4 mb-14 xl:pl-40 md:pl-20 pl-10"}>
                     <div className={"flex items-center"}>
                         <div>
                             <div className={"text-4xl font-bold mb-4 text-red-600"}> ABOUT</div>
@@ -82,14 +83,14 @@ export default function Home() {
                         </div>
                     </div>
                     <div className={"flex items-center justify-center"}>
-                        <Image src={"/image_2.png"} alt="Gold Coast Logo" width={500} height={500}
-                               className={"object-cover rounded-2xl"}/>
+                        <Image src={"/image_2.png"} alt="Gold Coast Logo" width={900} height={900}
+                               className={"object-cover rounded-l-2xl"}/>
                     </div>
                 </div>
 
                 <div className={"grid md:grid-cols-2 grid-cols-1 gap-4 xl:px-40 md:px-20 px-10 pb-14"}>
                     <div className={"flex justify-center text-center"}>
-                        <div className={"bg-gray-200 px-8 rounded-2xl w-[300px] py-4"}>
+                        <div className={"bg-gray-200 px-8 rounded-2xl w-[400px] py-4"}>
                             <div className={"text-red-600 text-2xl font-bold mb-2"}>
                                 Venue
                             </div>
@@ -102,23 +103,26 @@ export default function Home() {
                         </div>
                     </div>
                     <div className={"flex justify-center text-center"}>
-                        <div className={"bg-gray-200 px-8 rounded-2xl w-[300px] py-4"}>
+                        <div className={"bg-gray-200 px-8 rounded-2xl w-[400px] py-4"}>
                             <div className={"text-red-600 text-2xl font-bold mb-2"}>
                                 Important Dates
                             </div>
                             <p>
-                                November 15, 2023
-                                Abstract submission
+                                15th October: Abstract submission due
                             </p>
-                            <p>
-                                (2 pages)
-                            </p>
-                            <a href="https://forms.gle/LCXdEJMw8zigQEt4A"
-                            className={"underline text-blue"}
-                               target="_blank"
+                            <div>
+                                <a href="https://forms.gle/LCXdEJMw8zigQEt4A"
+                                            className={"underline text-blue mr-1"}
+                                            target="_blank"
                             >
                                 Submit Now
                             </a>
+                                (2 pages)
+                            </div>
+
+                            <p>
+                                25th October: Notification of acceptance
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -136,81 +140,7 @@ export default function Home() {
                     <Image src={"/image_4.png"} alt={"Gold Coast Beach"} width={2000} height={1000}/>
                 </div>
 
-                <div className={"pt-14 xl:px-40 md:px-20 px-10 pb-14"}>
-                    <div className={"text-4xl font-bold mb-4 text-red-600"}> ORGANISERS</div>
-
-                    <div className={"text-2xl text-blue"}>
-                        General Chair
-                    </div>
-                    <div className={"md:flex text-xl mb-4 my-1"}>
-                        <p className={"font-bold mr-8"}>
-                            Professor Dzung Viet Dao
-                        </p>
-                        <p>
-                            Griffith University, Australia
-                        </p>
-                    </div>
-
-                    <div className={"text-2xl text-blue"}>
-                        Steering Committee Chairs
-                    </div>
-                    <div className={"text-xl mb-4"}>
-                        <div className={"md:flex"}>
-                            <p className={"font-bold mr-8 my-1"}>
-                                Professor Nam-Trung Nguyen
-                            </p>
-                            <p>
-                                Griffith University, Australia
-                            </p>
-                        </div>
-                        <div className={"md:flex mb-4 "}>
-                            <p className={"font-bold mr-8"}>
-                                Professor Yusuke Yamauchi
-                            </p>
-                            <p>
-                                The University of Queensland
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className={"text-2xl text-blue"}>
-                        International Steering Committee Chairs
-                    </div>
-                    <div className={"text-xl mb-4"}>
-                        <div className={"md:flex my-1"}>
-                            <p className={"font-bold mr-8"}>
-                                Professor Toshihiro Itoh
-                            </p>
-                            <p>
-                                The University of Tokyo, Japan
-                            </p>
-                        </div>
-                        <div className={"md:flex my-1"}>
-                            <p className={"font-bold mr-8"}>
-                                Professor Chengkuo Lee
-                            </p>
-                            <p>
-                                National University of Singapore, Singapore
-                            </p>
-                        </div>
-                        <div className={"md:flex my-1"}>
-                            <p className={"font-bold mr-8"}>
-                                Professor Kohji Mitsubayashi
-                            </p>
-                            <p>
-                                Tokyo Medical and Dental University, Japan
-                            </p>
-                        </div>
-                        <div className={"md:flex my-1"}>
-                            <p className={"font-bold mr-8"}>
-                                Assistant Professor Hirofumi Nogami
-                            </p>
-                            <p>
-                                Kyushu University, Japan
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                <Organisers/>
 
                 <div className={"w-full bg-blue flex justify-center text-center"}>
                     <div className={"text-white py-2"}>
