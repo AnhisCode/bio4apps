@@ -111,7 +111,7 @@ export default function Home() {
                                 15th October: Abstract submission due
                             </p>
                             <div>
-                                <a href="https://forms.gle/LCXdEJMw8zigQEt4A"
+                                <a href="https://forms.gle/yTKGXNExPwX3Coky6"
                                             className={"underline text-blue mr-1"}
                                             target="_blank"
                             >
