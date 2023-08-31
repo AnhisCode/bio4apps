@@ -4,6 +4,7 @@ import {BuildingOffice2Icon, EnvelopeIcon} from '@heroicons/react/20/solid';
 import Image from 'next/image';
 import React from "react";
 import {Organisers} from "@/app/components/organisers";
+import Link from "next/link";
 
 const data: {
     title: string;
@@ -111,12 +112,12 @@ export default function Home() {
                                 15th October: Abstract submission due
                             </p>
                             <div>
-                                <a href="https://forms.gle/yTKGXNExPwX3Coky6"
+                                <Link href={"https://forms.gle/yTKGXNExPwX3Coky6"}
                                             className={"underline text-blue mr-1"}
                                             target="_blank"
                             >
                                 Submit Now
-                            </a>
+                            </Link>
                                 (2 pages)
                             </div>
 
