@@ -112,7 +112,7 @@ export default function Home() {
                                 15th October: Abstract submission due
                             </p>
                             <div>
-                                <Link href={"https://forms.gle/yTKGXNExPwX3Coky6"}
+                                <Link href={"https://submit.jotform.com/232381366009050"}
                                             className={"underline text-blue mr-1"}
                                             target="_blank"
                             >
@@ -120,7 +120,6 @@ export default function Home() {
                             </Link>
                                 (2 pages)
                             </div>
-
                             <p>
                                 25th October: Notification of acceptance
                             </p>
