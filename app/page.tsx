@@ -116,9 +116,8 @@ export default function Home() {
                                             className={"underline text-blue mr-1"}
                                             target="_blank"
                             >
-                                Submit Now
+                                Submit Now (2 pages)
                             </Link>
-                                (2 pages)
                             </div>
                             <p>
                                 25th October: Notification of acceptance
