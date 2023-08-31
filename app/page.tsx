@@ -111,12 +111,12 @@ export default function Home() {
                                 15th October: Abstract submission due
                             </p>
                             <div>
-                            {/*    <a href="#"*/}
-                            {/*                className={"underline text-blue mr-1"}*/}
-                            {/*                target="_blank"*/}
-                            {/*>*/}
-                            {/*    Submit Now (temporarily disabled)*/}
-                            {/*</a>*/}
+                                <a href="https://submit.jotform.com/232381366009050"
+                                            className={"underline text-blue mr-1"}
+                                            target="_blank"
+                            >
+                                Submit Now
+                            </a>
                                 (2 pages)
                             </div>
 
