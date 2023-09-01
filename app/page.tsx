@@ -1,3 +1,4 @@
+"use client"
 import List from '@/app/components/List';
 import CarouselComponent from '@/app/components/Carousel';
 import {BuildingOffice2Icon, EnvelopeIcon} from '@heroicons/react/20/solid';
@@ -5,6 +6,8 @@ import Image from 'next/image';
 import React from "react";
 import {Organisers} from "@/app/components/organisers";
 import Link from "next/link";
+
+
 
 const data: {
     title: string;
@@ -50,7 +53,18 @@ const data: {
         ],
     },
 ];
+
+
+
 export default function Home() {
+
+    const handleDownload = () => {
+        const downloadLink = document.createElement('a');
+        downloadLink.href = '/Bio4Apps2023Abstract_template.docx'; // Path to the .docx file in the public folder
+        downloadLink.download = 'Bio4Apps2023Abstract_template.docx'; // Name for the downloaded file
+        downloadLink.click();
+    };
+
     return (
         <main className="bg-white">
             {/*Header*/}
@@ -111,13 +125,16 @@ export default function Home() {
                             <p>
                                 15th October: Abstract submission due
                             </p>
-                            <div>
+                            <div className={"xl:flex mb-2 justify-center"}>
                                 <Link href={"https://submit.jotform.com/232381366009050"}
-                                            className={"underline text-blue mr-1"}
+                                            className={"underline text-blue mr-2"}
                                             target="_blank"
                             >
-                                Submit Now (2 pages)
+                                Submit Now (1 page)
                             </Link>
+                                <button onClick={handleDownload} className={"text-blue underline"}>
+                                    Download template
+                                </button>
                             </div>
                             <p>
                                 25th October: Notification of acceptance
