@@ -103,7 +103,7 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className={"grid md:grid-cols-2 grid-cols-1 gap-4 xl:px-40 md:px-20 px-10 pb-14"}>
+                <div className={"grid md:grid-cols-3 grid-cols-1 gap-4 xl:px-40 md:px-20 px-10 pb-14"}>
                     <div className={"flex justify-center text-center"}>
                         <div className={"bg-gray-200 px-8 rounded-2xl w-[400px] py-4"}>
                             <div className={"text-red-600 text-2xl font-bold mb-2"}>
@@ -117,6 +117,7 @@ export default function Home() {
                             </p>
                         </div>
                     </div>
+
                     <div className={"flex justify-center text-center"}>
                         <div className={"bg-gray-200 px-8 rounded-2xl w-[400px] py-4"}>
                             <div className={"text-red-600 text-2xl font-bold mb-2"}>
@@ -125,13 +126,13 @@ export default function Home() {
                             <p>
                                 15th October: Abstract submission due
                             </p>
-                            <div className={"xl:flex mb-2 justify-center"}>
+                            <div className={"mb-1 justify-center"}>
+
                                 <Link href={"https://submit.jotform.com/232381366009050"}
                                             className={"underline text-blue mr-2"}
-                                            target="_blank"
-                            >
-                                Submit Now (1 page)
-                            </Link>
+                                            target="_blank">
+                                    Submit Now (1 page)
+                                </Link>
                                 <button onClick={handleDownload} className={"text-blue underline"}>
                                     Download template
                                 </button>
@@ -141,6 +142,19 @@ export default function Home() {
                             </p>
                         </div>
                     </div>
+
+
+                    <div className={"flex justify-center text-center"}>
+                        <div className={"bg-gray-200 px-8 rounded-2xl w-[400px] py-4"}>
+                            <div className={"text-red-600 text-2xl font-bold mb-2"}>
+                                Program
+                            </div>
+                            <p>
+                                TBC
+                            </p>
+                        </div>
+                    </div>
+
                 </div>
 
                 <div className={"w-full "}>
@@ -155,20 +169,64 @@ export default function Home() {
                 <div className={"w-full "}>
                     <Image src={"/image_4.png"} alt={"Gold Coast Beach"} width={2000} height={1000}/>
                 </div>
+                <div className={"pt-14 xl:px-40 md:px-20 px-10 pb-14"}>
+
+                    <div className={"text-4xl font-bold mb-4 text-red-600"}> SPEAKERS</div>
+
+                    <div className={"text-2xl text-blue"}>
+                        Keynote Speaker
+                    </div>
+                    <div className={"md:flex text-xl mb-4 my-1 grid grid-cols-2"}>
+                        <p className={"font-bold mr-8"}>
+                            Prof. Shimoyama
+                        </p>
+                        <p>
+                            President, Toyama Prefecture University, Japan
+                        </p>
+                    </div>
+
+                    <div className={"text-2xl text-blue"}>
+                        Invited Speakers
+                    </div>
+                    <div className={"text-xl mb-4"}>
+                        <div className={"md:flex"}>
+
+                            <p className={"font-bold mr-8 my-1"}>
+                                Prof. Niwa
+                            </p>
+                            <p>
+                                Vice President, Saitama University, Japan
+                            </p>
+                        </div>
+                        <div className={"md:flex mb-4 "}>
+                            <p className={"font-bold mr-8"}>
+                                Prof. Toshihiro Itoh
+                            </p>
+                            <p>
+                                The University of Tokyo, Japan
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div className={"w-full h-[400px] overflow-hidden"}>
+                    <Image className={"-translate-y-[200px]"} src={"/Image_5.png"} alt={"Gold Coast Beach"} width={2000} height={1000}/>
+                </div>
 
                 <Organisers/>
 
                 <div className={"w-full bg-blue flex justify-center text-center"}>
                     <div className={"text-white py-2"}>
                         <p>
-                    For more information and paper submission, please visit the conference website at:
+                            For more information and paper submission, please visit the conference website at:
                         </p>
                         <p>
-                    http://www.bio4apps2023.com or contact us via email: bio4apps2023@gmail.com
+                            http://www.bio4apps2023.com or contact us via email: bio4apps2023@gmail.com
                         </p>
                     </div>
                 </div>
-
             </div>
 
         </main>
