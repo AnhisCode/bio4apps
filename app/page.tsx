@@ -84,7 +84,7 @@ export default function Home() {
                 </div>
                 <div className={"container bg-cover h-[300px] bg-repeat bg-center bg-[url('/Image_1.png')]"}/>
             </div>
-            <div className={"text-white bg-blue font-bold text-2xl text-center w-full mb-14"}> CALL FOR PAPERS</div>
+            <div className={"text-white bg-blue font-bold text-2xl text-center w-full mb-14"}> WELCOME TO BIO4APPS 2023</div>
             {/*body*/}
             <div className={"bg-white w-full text-black"}>
                 <div className={"grid md:grid-cols-2 grid-cols-1 gap-4 mb-14 xl:pl-40 md:pl-20 pl-10"}>
@@ -103,7 +103,7 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className={"grid md:grid-cols-3 grid-cols-1 gap-4 xl:px-40 md:px-20 px-10 pb-14"}>
+                <div className={"grid md:grid-cols-2 grid-cols-1 gap-4 xl:px-40 md:px-20 px-10 pb-14"}>
                     <div className={"flex justify-center text-center"}>
                         <div className={"bg-gray-200 px-8 rounded-2xl w-[400px] py-4"}>
                             <div className={"text-red-600 text-2xl font-bold mb-2"}>
@@ -155,6 +155,17 @@ export default function Home() {
                         </div>
                     </div>
 
+                    <div className={"flex justify-center text-center"}>
+                        <div className={"bg-gray-200 px-8 rounded-2xl w-[400px] py-4"}>
+                            <div className={"text-red-600 text-2xl font-bold mb-2"}>
+                                Registration fee
+                            </div>
+                            <p>
+                                General participants: <span className={"font-bold"}>$400</span> per person</p>
+                               <p> Student participants: <span className={"font-bold"}>$200</span> per person</p>
+                        </div>
+                    </div>
+
                 </div>
 
                 <div className={"w-full "}>
@@ -176,21 +187,32 @@ export default function Home() {
                     <div className={"text-2xl text-blue"}>
                         Keynote Speaker
                     </div>
-                    <div className={"md:flex text-xl mb-4 my-1 grid grid-cols-2"}>
-                        <p className={"font-bold mr-8"}>
-                            Prof. Shimoyama
-                        </p>
-                        <p>
-                            President, Toyama Prefecture University, Japan
-                        </p>
+
+                    <div className={"text-xl mb-4"}>
+                        <div className={"md:flex"}>
+                            <p className={"font-bold mr-8 my-1"}>
+                                Prof. Shimoyama
+                            </p>
+                            <p>
+                                President, Toyama Prefecture University, Japan
+                            </p>
+                        </div>
+                        <div className={"md:flex"}>
+                            <p className={"font-bold mr-8 my-1"}>
+                                Prof Nam-Trung Nguyen
+                            </p>
+                            <p>
+                                Australian Laureate Fellow 2023
+                            </p>
+                        </div>
                     </div>
+
 
                     <div className={"text-2xl text-blue"}>
                         Invited Speakers
                     </div>
                     <div className={"text-xl mb-4"}>
                         <div className={"md:flex"}>
-
                             <p className={"font-bold mr-8 my-1"}>
                                 Prof. Niwa
                             </p>
@@ -198,8 +220,8 @@ export default function Home() {
                                 Vice President, Saitama University, Japan
                             </p>
                         </div>
-                        <div className={"md:flex mb-4 "}>
-                            <p className={"font-bold mr-8"}>
+                        <div className={"md:flex"}>
+                            <p className={"font-bold mr-8 my-1"}>
                                 Prof. Toshihiro Itoh
                             </p>
                             <p>
@@ -212,7 +234,7 @@ export default function Home() {
 
 
                 <div className={"w-full h-[400px] overflow-hidden"}>
-                    <Image className={"-translate-y-[200px]"} src={"/Image_5.png"} alt={"Gold Coast Beach"} width={2000} height={1000}/>
+                    <Image className={"lg:-translate-y-[200px]"} src={"/Image_5.png"} alt={"Gold Coast Beach"} width={2000} height={1000}/>
                 </div>
 
                 <Organisers/>
