@@ -161,8 +161,8 @@ export default function Home() {
                                 Registration fee
                             </div>
                             <p>
-                                General participants: <span className={"font-bold"}>$400</span> per person</p>
-                               <p> Student participants: <span className={"font-bold"}>$200</span> per person</p>
+                                General participants: <span className={"font-bold"}>AU$400</span> per person</p>
+                               <p> Student participants: <span className={"font-bold"}>AU$200</span> per person</p>
                         </div>
                     </div>
 
