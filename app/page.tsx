@@ -165,7 +165,7 @@ export default function Home() {
                                <p> Student participants: <span className={"font-bold"}>AU$200</span> per person</p>
                             <div>
                                 (The fee includes: Conference materials,
-                                <Link href={"https://seaworldcruises.com.au/daily-cruises/dinner-cruise/"} target="_blank" className={"underline text-blue"}> Cruise dinner banquet</Link>
+                                <Link href={"https://seaworldcruises.com.au/daily-cruises/dinner-cruise/"} target="_blank" className={"underline text-blue"}> Dinner cruise banquet</Link>
                                 , lunches, coffee, etc)
                             </div>
                         </div>
