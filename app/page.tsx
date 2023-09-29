@@ -194,16 +194,16 @@ export default function Home() {
                     </div>
 
                     <div className={"text-xl mb-4"}>
-                        <div className={"md:flex"}>
-                            <p className={"font-bold mr-8 my-1"}>
+                        <div className={"md:flex my-1"}>
+                            <p className={"font-bold mr-8"}>
                                 Prof. Shimoyama
                             </p>
                             <p>
                                 President, Toyama Prefecture University, Japan
                             </p>
                         </div>
-                        <div className={"md:flex"}>
-                            <p className={"font-bold mr-8 my-1"}>
+                        <div className={"md:flex my-1"}>
+                            <p className={"font-bold mr-8"}>
                                 Prof Nam-Trung Nguyen
                             </p>
                             <p>
@@ -217,22 +217,31 @@ export default function Home() {
                         Invited Speakers
                     </div>
                     <div className={"text-xl mb-4"}>
-                        <div className={"md:flex"}>
-                            <p className={"font-bold mr-8 my-1"}>
+                        <div className={"md:flex my-1"}>
+                            <p className={"font-bold mr-8"}>
                                 Prof. Niwa
                             </p>
                             <p>
                                 Vice President, Saitama University, Japan
                             </p>
                         </div>
-                        <div className={"md:flex"}>
-                            <p className={"font-bold mr-8 my-1"}>
+                        <div className={"md:flex my-1"}>
+                            <p className={"font-bold mr-8"}>
                                 Prof. Toshihiro Itoh
                             </p>
                             <p>
                                 The University of Tokyo, Japan
                             </p>
                         </div>
+                        <div className={"md:flex my-1"}>
+                            <p className={"font-bold mr-8"}>
+                                Dr Kiyotaka Sasagawa
+                            </p>
+                            <p>
+                                Nara Institute of Science and Technology, Japan
+                            </p>
+                        </div>
+                        <span className={"font-bold"}>Presentation title</span> - Miniaturized CMOS image sensors for brain functional imaging
                     </div>
 
                 </div>
