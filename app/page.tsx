@@ -237,11 +237,12 @@ export default function Home() {
                             <p className={"font-bold mr-8"}>
                                 Dr Kiyotaka Sasagawa
                             </p>
-                            <p>
-                                Nara Institute of Science and Technology, Japan
-                            </p>
+                            <div>
+                                <p>Nara Institute of Science and Technology, Japan: </p>
+                                <p>Miniaturized CMOS image sensors for brain functional imaging</p>
+                            </div>
                         </div>
-                        <span className={"font-bold"}>Presentation title</span> - Miniaturized CMOS image sensors for brain functional imaging
+
                     </div>
 
                 </div>
