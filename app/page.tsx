@@ -124,7 +124,7 @@ export default function Home() {
                                 Important Dates
                             </div>
                             <p>
-                                15th October: Abstract submission due
+                                31st October: Abstract submission due
                             </p>
                             <div className={"mb-1 justify-center"}>
 
@@ -138,7 +138,7 @@ export default function Home() {
                                 </button>
                             </div>
                             <p>
-                                25th October: Notification of acceptance
+                                10th November: Notification of acceptance
                             </p>
                         </div>
                     </div>
@@ -194,7 +194,7 @@ export default function Home() {
                     </div>
 
                     <div className={"text-xl mb-4"}>
-                        <div className={"md:flex my-1"}>
+                        <div className={"xl:flex my-1"}>
                             <p className={"font-bold mr-8"}>
                                 Prof. Shimoyama
                             </p>
@@ -202,7 +202,7 @@ export default function Home() {
                                 President, Toyama Prefecture University, Japan
                             </p>
                         </div>
-                        <div className={"md:flex my-1"}>
+                        <div className={"xl:flex my-1"}>
                             <p className={"font-bold mr-8"}>
                                 Prof Nam-Trung Nguyen
                             </p>
@@ -217,7 +217,7 @@ export default function Home() {
                         Invited Speakers
                     </div>
                     <div className={"text-xl mb-4"}>
-                        <div className={"md:flex my-1"}>
+                        <div className={"xl:flex my-1"}>
                             <p className={"font-bold mr-8"}>
                                 Prof. Niwa
                             </p>
@@ -225,7 +225,7 @@ export default function Home() {
                                 Vice President, Saitama University, Japan
                             </p>
                         </div>
-                        <div className={"md:flex my-1"}>
+                        <div className={"xl:flex my-1"}>
                             <p className={"font-bold mr-8"}>
                                 Prof. Toshihiro Itoh
                             </p>
@@ -233,7 +233,7 @@ export default function Home() {
                                 The University of Tokyo, Japan
                             </p>
                         </div>
-                        <div className={"md:flex my-1"}>
+                        <div className={"xl:flex my-1"}>
                             <p className={"font-bold mr-8"}>
                                 Dr Kiyotaka Sasagawa
                             </p>

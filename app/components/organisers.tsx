@@ -9,20 +9,22 @@ export const Organisers = () => {
             <div className={"text-2xl text-blue"}>
                 General Chair
             </div>
-            <div className={"md:flex text-xl mb-4 my-1 grid grid-cols-2"}>
-                <p className={"font-bold mr-8"}>
-                    Professor Dzung Viet Dao
-                </p>
-                <p>
-                    Griffith University, Australia
-                </p>
+            <div className={"text-xl mb-4"}>
+                <div className={"xl:flex"}>
+                    <p className={"font-bold mr-8 xl:my-0 my-1"}>
+                        Professor Dzung Viet Dao
+                    </p>
+                    <p>
+                        Griffith University, Australia
+                    </p>
+                </div>
             </div>
 
             <div className={"text-2xl text-blue"}>
                 Local Steering Committee Chairs
             </div>
             <div className={"text-xl mb-4"}>
-                <div className={"md:flex"}>
+                <div className={"xl:flex"}>
                     <p className={"font-bold mr-8 my-1"}>
                         Professor Nam-Trung Nguyen
                     </p>
@@ -30,7 +32,7 @@ export const Organisers = () => {
                         Griffith University, Australia
                     </p>
                 </div>
-                <div className={"md:flex mb-4 "}>
+                <div className={"xl:flex mb-4 "}>
                     <p className={"font-bold mr-8"}>
                         Professor Yusuke Yamauchi
                     </p>
@@ -44,7 +46,7 @@ export const Organisers = () => {
                 International Steering Committee Chairs
             </div>
             <div className={"text-xl mb-4"}>
-                <div className={"md:flex my-1"}>
+                <div className={"xl:flex my-1"}>
                     <p className={"font-bold mr-8"}>
                         Professor Toshihiro Itoh
                     </p>
@@ -52,7 +54,7 @@ export const Organisers = () => {
                         The University of Tokyo, Japan
                     </p>
                 </div>
-                <div className={"md:flex my-1"}>
+                <div className={"xl:flex my-1"}>
                     <p className={"font-bold mr-8"}>
                         Professor Chengkuo Lee
                     </p>
@@ -60,7 +62,7 @@ export const Organisers = () => {
                         National University of Singapore, Singapore
                     </p>
                 </div>
-                <div className={"md:flex my-1"}>
+                <div className={"xl:flex my-1"}>
                     <p className={"font-bold mr-8"}>
                         Professor Kohji Mitsubayashi
                     </p>
@@ -68,7 +70,7 @@ export const Organisers = () => {
                         Tokyo Medical and Dental University, Japan
                     </p>
                 </div>
-                <div className={"md:flex my-1"}>
+                <div className={"xl:flex my-1"}>
                     <p className={"font-bold mr-8"}>
                         Assistant Professor Hirofumi Nogami
                     </p>
@@ -82,7 +84,7 @@ export const Organisers = () => {
             <div className={"text-4xl font-bold mb-4 text-red-600 mt-10"}>Technical Program Committee</div>
 
             <div className={"text-xl mb-4"}>
-                <div className={"md:flex my-1"}>
+                <div className={"xl:flex my-1"}>
                     <p className={"font-bold mr-8"}>
                         Prof Ryuji Yokokawa
                     </p>
@@ -90,7 +92,7 @@ export const Organisers = () => {
                         Kyoto University, Japan
                     </p>
                 </div>
-                <div className={"md:flex my-1"}>
+                <div className={"xl:flex my-1"}>
                     <p className={"font-bold mr-8"}>
                         Assoc. Professor Yong Zhu
                     </p>
@@ -98,7 +100,7 @@ export const Organisers = () => {
                         Griffith University, Australia
                     </p>
                 </div>
-                <div className={"md:flex my-1"}>
+                <div className={"xl:flex my-1"}>
                     <p className={"font-bold mr-8"}>
                         Dr Van Dau
                     </p>
@@ -106,7 +108,7 @@ export const Organisers = () => {
                         Griffith University, Australia
                     </p>
                 </div>
-                <div className={"md:flex my-1"}>
+                <div className={"xl:flex my-1"}>
                     <p className={"font-bold mr-8"}>
                         Dr Hoang-Phuong Phan
                     </p>
@@ -114,7 +116,7 @@ export const Organisers = () => {
                         The University of New South Wales, Australia
                     </p>
                 </div>
-                <div className={"md:flex my-1"}>
+                <div className={"xl:flex my-1"}>
                     <p className={"font-bold mr-8"}>
                         Assoc. Professor Takahiro Arakawa
                     </p>
@@ -122,7 +124,7 @@ export const Organisers = () => {
                         Tokyo University of Technology, Japan
                     </p>
                 </div>
-                <div className={"md:flex my-1"}>
+                <div className={"xl:flex my-1"}>
                     <p className={"font-bold mr-8"}>
                         Dr Toan Dinh
                     </p>
@@ -130,7 +132,7 @@ export const Organisers = () => {
                         University of Southern Queensland, Australia
                     </p>
                 </div>
-                <div className={"md:flex my-1"}>
+                <div className={"xl:flex my-1"}>
                     <p className={"font-bold mr-8"}>
                         Assist. Prof Kenta Iitani
                     </p>
@@ -138,7 +140,14 @@ export const Organisers = () => {
                         Tokyo Medical and Dental University, Japan
                     </p>
                 </div>
-
+                <div className={"xl:flex my-1"}>
+                    <p className={"font-bold mr-8"}>
+                        Assoc. Professor Mariusz Martyniuk
+                    </p>
+                    <p>
+                        The University of Western Australia, Australia
+                    </p>
+                </div>
             </div>
         </div>
     )
