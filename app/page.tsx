@@ -8,7 +8,6 @@ import {Organisers} from "@/app/components/organisers";
 import Link from "next/link";
 
 
-
 const data: {
     title: string;
     list: string[];
@@ -55,7 +54,6 @@ const data: {
 ];
 
 
-
 export default function Home() {
 
     const handleDownload = () => {
@@ -84,7 +82,9 @@ export default function Home() {
                 </div>
                 <div className={"container bg-cover h-[300px] bg-repeat bg-center bg-[url('/Image_1.png')]"}/>
             </div>
-            <div className={"text-white bg-blue font-bold text-2xl text-center w-full mb-14"}> WELCOME TO BIO4APPS 2023</div>
+            <div className={"text-white bg-blue font-bold text-2xl text-center w-full mb-14"}> WELCOME TO BIO4APPS
+                2023
+            </div>
             {/*body*/}
             <div className={"bg-white w-full text-black"}>
                 <div className={"grid md:grid-cols-2 grid-cols-1 gap-4 mb-14 xl:pl-40 md:pl-20 pl-10"}>
@@ -92,8 +92,17 @@ export default function Home() {
                         <div>
                             <div className={"text-4xl font-bold mb-4 text-red-600"}> ABOUT</div>
                             <p className={"italic"}>
-                                Bio4Apps is an international conference series for researchers, scientists, and engineers throughout the world to present their latest findings, ideas, and applications in the areas of biosensors, bioelectronics, biomedical devices, and BioMEMS/NEMS. The first Bio4Apps conference was held in the National University of Singapore (2012), then Tokyo Medical and Dental University (2013), Shanghai Jiao Tong University (2014), Kyushu University (2015), Griffith University (2016), the University of Tokyo (2017), Harbin Institute of Technology (2018), and Kagoshima University (2019). Between 2020 and 2022, the Bio4Apps conference was not held due to the Covid-19 pandemic.
-                                This year, the 9th Bio4Apps (Bio4Apps2023) will come back to Griffith University, Gold Coast - one of the beautiful coastal cities in Australia. So welcome to the 9th Bio4Apps!
+                                Bio4Apps is an international conference series for researchers, scientists,
+                                and engineers throughout the world to present their latest findings, ideas,
+                                and applications in the areas of Biosensors, Bioelectronics, Biomedical devices,
+                                and BioMEMS/NEMS. The first Bio4Apps conference was held in the National University
+                                of Singapore (2012), then Tokyo Medical and Dental University (2013), Shanghai Jiao
+                                Tong University (2014), Kyushu University (2015), Griffith University (2016),
+                                the University of Tokyo (2017), Harbin Institute of Technology (2018), and Kagoshima
+                                University (2019). Between 2020 and 2022, the Bio4Apps conference was not held due to
+                                the Covid-19 pandemic. This year, the 9th Bio4Apps (Bio4Apps2023) will come back to
+                                riffith University, Gold Coast - one of the most beautiful coastal cities in Australia.
+                                So welcome to the 9th Bio4Apps!
                             </p>
                         </div>
                     </div>
@@ -129,8 +138,8 @@ export default function Home() {
                             <div className={"mb-1 justify-center"}>
 
                                 <Link href={"https://submit.jotform.com/232381366009050"}
-                                            className={"underline text-blue mr-2"}
-                                            target="_blank">
+                                      className={"underline text-blue mr-2"}
+                                      target="_blank">
                                     Submit Now (1 page)
                                 </Link>
                                 <button onClick={handleDownload} className={"text-blue underline"}>
@@ -162,10 +171,11 @@ export default function Home() {
                             </div>
                             <p>
                                 General participants: <span className={"font-bold"}>AU$400</span> per person</p>
-                               <p> Student participants: <span className={"font-bold"}>AU$200</span> per person</p>
+                            <p> Student participants: <span className={"font-bold"}>AU$200</span> per person</p>
                             <div>
                                 (The fee includes: Conference materials,
-                                <Link href={"https://seaworldcruises.com.au/daily-cruises/dinner-cruise/"} target="_blank" className={"underline text-blue"}> Dinner cruise banquet</Link>
+                                <Link href={"https://seaworldcruises.com.au/daily-cruises/dinner-cruise/"}
+                                      target="_blank" className={"underline text-blue"}> Dinner cruise banquet</Link>
                                 , lunches, coffee, etc)
                             </div>
                         </div>
@@ -242,6 +252,15 @@ export default function Home() {
                                 <p>Miniaturized CMOS image sensors for brain functional imaging</p>
                             </div>
                         </div>
+                        <div className={"xl:flex my-1"}>
+                            <p className={"font-bold mr-8"}>
+                                Prof. Yoshikazu NAKAJIMA, Ph.D.
+                            </p>
+                            <div>
+                                <p>Tokyo Medical and Dental University, Japan: </p>
+                                <p>Generative AI for Biomedicine</p>
+                            </div>
+                        </div>
 
                     </div>
 
@@ -249,7 +268,8 @@ export default function Home() {
 
 
                 <div className={"w-full h-[400px] overflow-hidden"}>
-                    <Image className={"lg:-translate-y-[200px]"} src={"/Image_5.png"} alt={"Gold Coast Beach"} width={2000} height={1000}/>
+                    <Image className={"lg:-translate-y-[200px]"} src={"/Image_5.png"} alt={"Gold Coast Beach"}
+                           width={2000} height={1000}/>
                 </div>
 
                 <Organisers/>
