@@ -220,6 +220,14 @@ export default function Home() {
                                 Australian Laureate Fellow 2023
                             </p>
                         </div>
+                        <div className={"xl:flex my-1"}>
+                            <p className={"font-bold mr-8"}>
+                                Emeritus Professor Laurence Walsh
+                            </p>
+                            <p>
+                                School of Dentistry, The University of Queensland, Australia
+                            </p>
+                        </div>
                     </div>
 
 
