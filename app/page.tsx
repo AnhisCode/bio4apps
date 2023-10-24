@@ -178,6 +178,10 @@ export default function Home() {
                                       target="_blank" className={"underline text-blue"}> Dinner cruise banquet</Link>
                                 , lunches, coffee, etc)
                             </div>
+                            <div>
+                                Make your payments <Link href={"https://app.secure.griffith.edu.au/griffithpay/international-conference-on-biosensors-bioelectronics-biomedical-devices-biomems-nems-and-applications.html"}
+                                                         target="_blank" className={"underline text-blue font-bold"}>Here</Link>
+                            </div>
                         </div>
                     </div>
 
