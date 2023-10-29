@@ -149,6 +149,9 @@ export default function Home() {
                             <p>
                                 10th November: Notification of acceptance
                             </p>
+                            <p>
+                                1st Dec 2023: Registration due
+                            </p>
                         </div>
                     </div>
 
