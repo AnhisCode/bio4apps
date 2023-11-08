@@ -133,7 +133,7 @@ export default function Home() {
                                 Important Dates
                             </div>
                             <p>
-                                31st October: Abstract submission due
+                                <span className={"font-bold"}>31st October</span>: Abstract submission due
                             </p>
                             <div className={"mb-1 justify-center"}>
 
@@ -147,10 +147,10 @@ export default function Home() {
                                 </button>
                             </div>
                             <p>
-                                10th November: Notification of acceptance
+                                <span className={"font-bold"}>10th November</span>: Notification of acceptance
                             </p>
                             <p>
-                                1st Dec 2023: Registration due
+                                <span className={"font-bold"}>1st Dec 2023</span>: Registration due
                             </p>
                         </div>
                     </div>
@@ -173,7 +173,7 @@ export default function Home() {
                                 Registration fee
                             </div>
                             <p>
-                                General participants: <span className={"font-bold"}>AU$400</span> per person</p>
+                                Non-Student participants: <span className={"font-bold"}>AU$400</span> per person</p>
                             <p> Student participants: <span className={"font-bold"}>AU$200</span> per person</p>
                             <div>
                                 (The fee includes: Conference materials,

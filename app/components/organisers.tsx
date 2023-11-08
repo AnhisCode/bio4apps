@@ -56,6 +56,14 @@ export const Organisers = () => {
                 </div>
                 <div className={"xl:flex my-1"}>
                     <p className={"font-bold mr-8"}>
+                        Emeritus Professor Susumu Sugiyama
+                    </p>
+                    <p>
+                        Ritsumeikan University, Japan
+                    </p>
+                </div>
+                <div className={"xl:flex my-1"}>
+                    <p className={"font-bold mr-8"}>
                         Professor Chengkuo Lee
                     </p>
                     <p>
