@@ -94,6 +94,14 @@ export const Organisers = () => {
             <div className={"text-xl mb-4"}>
                 <div className={"xl:flex my-1"}>
                     <p className={"font-bold mr-8"}>
+                        Dr Van Dau (Chair)
+                    </p>
+                    <p>
+                        Griffith University, Australia
+                    </p>
+                </div>
+                <div className={"xl:flex my-1"}>
+                    <p className={"font-bold mr-8"}>
                         Prof Ryuji Yokokawa
                     </p>
                     <p>
@@ -103,14 +111,6 @@ export const Organisers = () => {
                 <div className={"xl:flex my-1"}>
                     <p className={"font-bold mr-8"}>
                         Assoc. Professor Yong Zhu
-                    </p>
-                    <p>
-                        Griffith University, Australia
-                    </p>
-                </div>
-                <div className={"xl:flex my-1"}>
-                    <p className={"font-bold mr-8"}>
-                        Dr Van Dau
                     </p>
                     <p>
                         Griffith University, Australia
@@ -156,6 +156,35 @@ export const Organisers = () => {
                         The University of Western Australia, Australia
                     </p>
                 </div>
+
+                <div className={"text-4xl font-bold mb-4 text-red-600 mt-10"}>Conference Secretary</div>
+                <div className={"text-xl mb-4"}>
+                    <div className={"xl:flex my-1"}>
+                        <p className={"font-bold mr-8"}>
+                            Dr Cong Nguyen (Chair)
+                        </p>
+                        <p>
+                            Griffith University, Australia
+                        </p>
+                    </div>
+                    <div className={"xl:flex my-1"}>
+                        <p className={"font-bold mr-8"}>
+                            Mrs. Mary Pink
+                        </p>
+                        <p>
+                            Griffith University, Australia
+                        </p>
+                    </div>
+                    <div className={"xl:flex my-1"}>
+                        <p className={"font-bold mr-8"}>
+                            Dr Hung Nguyen
+                        </p>
+                        <p>
+                            Griffith University, Australia
+                        </p>
+                    </div>
+                </div>
+
             </div>
         </div>
     )

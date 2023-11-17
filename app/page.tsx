@@ -183,7 +183,7 @@ export default function Home() {
                             </div>
                             <div>
                                 Make your payments <Link href={"https://app.secure.griffith.edu.au/griffithpay/international-conference-on-biosensors-bioelectronics-biomedical-devices-biomems-nems-and-applications.html"}
-                                                         target="_blank" className={"underline text-blue font-bold"}>Here</Link>
+                                                         target="_blank" className={"underline text-blue font-bold"}>Here</Link> by 1st December
                             </div>
                         </div>
                     </div>
