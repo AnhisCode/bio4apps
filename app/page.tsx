@@ -242,6 +242,7 @@ export default function Home() {
                             <p>
                                 Ritsumeikan University, Japan
                             </p>
+                        </div>
                     </div>
 
 
