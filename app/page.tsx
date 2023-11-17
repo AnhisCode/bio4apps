@@ -235,6 +235,13 @@ export default function Home() {
                                 School of Dentistry, The University of Queensland, Australia
                             </p>
                         </div>
+                        <div className={"xl:flex my-1"}>
+                            <p className={"font-bold mr-8"}>
+                                Emeritus Professor Susumu Sugiyama
+                            </p>
+                            <p>
+                                Ritsumeikan University, Japan
+                            </p>
                     </div>
 
 
