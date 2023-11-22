@@ -63,6 +63,13 @@ export default function Home() {
         downloadLink.click();
     };
 
+    const handleCruiseDownload = () => {
+        const downloadLink = document.createElement('a');
+        downloadLink.href = '/CruiseBanquet.pdf'; // Path to the .docx file in the public folder
+        downloadLink.download = 'CruiseBanquet.pdf'; // Name for the downloaded file
+        downloadLink.click();
+    }
+
     return (
         <main className="bg-white">
             {/*Header*/}
@@ -177,8 +184,8 @@ export default function Home() {
                             <p> Student participants: <span className={"font-bold"}>AU$200</span> per person</p>
                             <div>
                                 (The fee includes: Conference materials,
-                                <Link href={"https://seaworldcruises.com.au/daily-cruises/dinner-cruise/"}
-                                      target="_blank" className={"underline text-blue"}> Dinner cruise banquet</Link>
+                                <button onClick={handleCruiseDownload}
+                                      className={"underline text-blue font-bold"}> Cruise and Banquet </button>
                                 , lunches, coffee, etc)
                             </div>
                             <div>
