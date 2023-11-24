@@ -192,6 +192,9 @@ export default function Home() {
                                 Make your payments <Link href={"https://app.secure.griffith.edu.au/griffithpay/international-conference-on-biosensors-bioelectronics-biomedical-devices-biomems-nems-and-applications.html"}
                                                          target="_blank" className={"underline text-blue font-bold"}>Here</Link> by 1st December
                             </div>
+                            <div>
+                                Additional Banquet Ticket: <span className={"font-bold"}>AU$140</span> (Adult), <span className={"font-bold"}>AU$60</span> (Child age 3-14)
+                            </div>
                         </div>
                     </div>
 
