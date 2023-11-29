@@ -17,7 +17,7 @@ export const metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${inter.variable} ${infant.variable} ${jura.variable}`}>
+    <html lang="en" className={`${inter.variable} ${infant.variable} ${jura.variable} `}>
       <body>{children}</body>
     </html>
   );

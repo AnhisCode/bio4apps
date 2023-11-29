@@ -108,7 +108,7 @@ export default function Home() {
                                 the University of Tokyo (2017), Harbin Institute of Technology (2018), and Kagoshima
                                 University (2019). Between 2020 and 2022, the Bio4Apps conference was not held due to
                                 the Covid-19 pandemic. This year, the 9th Bio4Apps (Bio4Apps2023) will come back to
-                                riffith University, Gold Coast - one of the most beautiful coastal cities in Australia.
+                                Griffith University, Gold Coast - one of the most beautiful coastal cities in Australia.
                                 So welcome to the 9th Bio4Apps!
                             </p>
                         </div>
@@ -130,6 +130,14 @@ export default function Home() {
                                 Gold Coast Campus.
                                 1 Parklands Drive,
                                 Southport, QLD 4215.
+                            </p>
+                            <p>
+                                Info on Transportation can be found <Link
+                                href={"https://drive.google.com/file/d/1z3MySjyYAxcDTrABzHMMov9mEvmSS-76/view"}
+                                className={"underline text-blue mr-2"}
+                                target="_blank">
+                                Here
+                            </Link>
                             </p>
                         </div>
                     </div>
@@ -166,10 +174,15 @@ export default function Home() {
                     <div className={"flex justify-center text-center"}>
                         <div className={"bg-gray-200 px-8 rounded-2xl w-[400px] py-4"}>
                             <div className={"text-red-600 text-2xl font-bold mb-2"}>
-                                Program
+                                Conference Program
                             </div>
                             <p>
-                                TBC
+                                Info on the conference program can be found <Link
+                                href={"https://drive.google.com/file/d/1K1jzoKPJrrbIF8h2FHjel4Wo4YAMQBju/view?usp=sharing"}
+                                className={"underline text-blue mr-2"}
+                                target="_blank">
+                                Here
+                            </Link>
                             </p>
                         </div>
                     </div>
@@ -185,15 +198,17 @@ export default function Home() {
                             <div>
                                 (The fee includes: Conference materials,
                                 <button onClick={handleCruiseDownload}
-                                      className={"underline text-blue font-bold"}> Cruise and Banquet </button>
+                                        className={"underline text-blue font-bold"}> Cruise and Banquet </button>
                                 , lunches, coffee, etc)
                             </div>
                             <div>
-                                Make your payments <Link href={"https://app.secure.griffith.edu.au/griffithpay/international-conference-on-biosensors-bioelectronics-biomedical-devices-biomems-nems-and-applications.html"}
-                                                         target="_blank" className={"underline text-blue font-bold"}>Here</Link> by 1st December
+                                Make your payments <Link
+                                href={"https://app.secure.griffith.edu.au/griffithpay/international-conference-on-biosensors-bioelectronics-biomedical-devices-biomems-nems-and-applications.html"}
+                                target="_blank" className={"underline text-blue font-bold"}>Here</Link> by 1st December
                             </div>
                             <div>
-                                Additional Banquet Ticket: <span className={"font-bold"}>AU$140</span> (Adult), <span className={"font-bold"}>AU$60</span> (Child age 3-14)
+                                Additional Banquet Ticket: <span className={"font-bold"}>AU$140</span> (Adult), <span
+                                className={"font-bold"}>AU$60</span> (Child age 3-14)
                             </div>
                         </div>
                     </div>
