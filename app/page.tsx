@@ -238,7 +238,7 @@ export default function Home() {
                     <div className={"text-xl mb-4"}>
                         <div className={"xl:flex my-1"}>
                             <p className={"font-bold mr-8"}>
-                                Prof. Shimoyama
+                                Professor Shimoyama
                             </p>
                             <p>
                                 President, Toyama Prefecture University, Japan
@@ -246,7 +246,7 @@ export default function Home() {
                         </div>
                         <div className={"xl:flex my-1"}>
                             <p className={"font-bold mr-8"}>
-                                Prof Nam-Trung Nguyen
+                                Professor Nam-Trung Nguyen
                             </p>
                             <p>
                                 Australian Laureate Fellow 2023
@@ -268,6 +268,24 @@ export default function Home() {
                                 Ritsumeikan University, Japan
                             </p>
                         </div>
+                        <div className={"xl:flex my-1"}>
+                            <p className={"font-bold mr-8"}>
+                                Professor Qin Li
+                            </p>
+                            <p>
+                                Griffith University, Australia
+                            </p>
+                        </div>
+
+                        <div className={"xl:flex my-1"}>
+                            <p className={"font-bold mr-8"}>
+                                Professor Leslie Yeo
+                            </p>
+                            <p>
+                                RMIT University, Australia
+                            </p>
+                        </div>
+
                     </div>
 
 
@@ -277,7 +295,7 @@ export default function Home() {
                     <div className={"text-xl mb-4"}>
                         <div className={"xl:flex my-1"}>
                             <p className={"font-bold mr-8"}>
-                                Prof. Niwa
+                                Professor Niwa
                             </p>
                             <p>
                                 Vice President, Saitama University, Japan
@@ -285,7 +303,7 @@ export default function Home() {
                         </div>
                         <div className={"xl:flex my-1"}>
                             <p className={"font-bold mr-8"}>
-                                Prof. Toshihiro Itoh
+                                Professor Toshihiro Itoh
                             </p>
                             <p>
                                 The University of Tokyo, Japan
@@ -302,7 +320,7 @@ export default function Home() {
                         </div>
                         <div className={"xl:flex my-1"}>
                             <p className={"font-bold mr-8"}>
-                                Prof. Yoshikazu NAKAJIMA, Ph.D.
+                                Professor Yoshikazu NAKAJIMA, Ph.D.
                             </p>
                             <div>
                                 <p>Tokyo Medical and Dental University, Japan: </p>

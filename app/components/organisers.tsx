@@ -102,7 +102,7 @@ export const Organisers = () => {
                 </div>
                 <div className={"xl:flex my-1"}>
                     <p className={"font-bold mr-8"}>
-                        Prof Ryuji Yokokawa
+                        Professor Ryuji Yokokawa
                     </p>
                     <p>
                         Kyoto University, Japan
@@ -142,7 +142,7 @@ export const Organisers = () => {
                 </div>
                 <div className={"xl:flex my-1"}>
                     <p className={"font-bold mr-8"}>
-                        Assist. Prof Kenta Iitani
+                        Assist. Professor Kenta Iitani
                     </p>
                     <p>
                         Tokyo Medical and Dental University, Japan
