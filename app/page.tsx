@@ -123,7 +123,7 @@ export default function Home() {
                     <div className={"flex justify-center text-center"}>
                         <div className={"bg-gray-200 px-8 rounded-2xl w-[400px] py-4"}>
                             <div className={"text-red-600 text-2xl font-bold mb-2"}>
-                                Venue
+                                Venue and Transportation
                             </div>
                             <p>
                                 Griffith University,
@@ -178,7 +178,7 @@ export default function Home() {
                             </div>
                             <p>
                                 Info on the conference program can be found <Link
-                                href={"https://drive.google.com/file/d/1K1jzoKPJrrbIF8h2FHjel4Wo4YAMQBju/view?usp=sharing"}
+                                href={"https://drive.google.com/file/d/1qjoBapI4oczYYrmA958B__O-y2yWD-u5/view"}
                                 className={"underline text-blue mr-2"}
                                 target="_blank">
                                 Here
