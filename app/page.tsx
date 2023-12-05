@@ -178,7 +178,7 @@ export default function Home() {
                             </div>
                             <p>
                                 Info on the conference program can be found <Link
-                                href={"https://drive.google.com/file/d/1qjoBapI4oczYYrmA958B__O-y2yWD-u5/view"}
+                                href={"https://drive.google.com/file/d/1gsdoJezRZoEJqbCsWjen3g5OFVNl3rQD/view?usp=sharing"}
                                 className={"underline text-blue mr-2"}
                                 target="_blank">
                                 Here
